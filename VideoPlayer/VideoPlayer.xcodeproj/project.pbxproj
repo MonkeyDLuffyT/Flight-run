@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9988EF211CF2D85A00B7C76F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9988EF201CF2D85A00B7C76F /* main.m */; };
+		9988EF241CF2D85A00B7C76F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9988EF231CF2D85A00B7C76F /* AppDelegate.m */; };
+		9988EF271CF2D85A00B7C76F /* VideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9988EF261CF2D85A00B7C76F /* VideoPlayerController.m */; };
+		9988EF2A1CF2D85A00B7C76F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF281CF2D85A00B7C76F /* Main.storyboard */; };
+		9988EF2C1CF2D85A00B7C76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF2B1CF2D85A00B7C76F /* Assets.xcassets */; };
+		9988EF2F1CF2D85A00B7C76F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF2D1CF2D85A00B7C76F /* LaunchScreen.storyboard */; };
+		9988EF3A1CF2D85A00B7C76F /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9988EF391CF2D85A00B7C76F /* VideoPlayerTests.m */; };
+		9988EF451CF2D85A00B7C76F /* VideoPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9988EF441CF2D85A00B7C76F /* VideoPlayerUITests.m */; };
+		9988EF5B1CF2DE7400B7C76F /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF581CF2DE7400B7C76F /* 1.mp4 */; };
+		9988EF5C1CF2DE7400B7C76F /* 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF591CF2DE7400B7C76F /* 2.mp4 */; };
+		9988EF5D1CF2DE7400B7C76F /* 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF5A1CF2DE7400B7C76F /* 3.mp4 */; };
+		9988EF701CF2DEC200B7C76F /* backward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF5E1CF2DEC200B7C76F /* backward_disable@2x.png */; };
+		9988EF711CF2DEC200B7C76F /* backward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF5F1CF2DEC200B7C76F /* backward_nor@2x.png */; };
+		9988EF721CF2DEC200B7C76F /* fast_backward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF601CF2DEC200B7C76F /* fast_backward_disable@2x.png */; };
+		9988EF731CF2DEC200B7C76F /* fast_backward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF611CF2DEC200B7C76F /* fast_backward_nor@2x.png */; };
+		9988EF741CF2DEC200B7C76F /* fast_forward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF621CF2DEC200B7C76F /* fast_forward_disable@2x.png */; };
+		9988EF751CF2DEC200B7C76F /* fast_forward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF631CF2DEC200B7C76F /* fast_forward_nor@2x.png */; };
+		9988EF761CF2DEC200B7C76F /* forward_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF641CF2DEC200B7C76F /* forward_disable@2x.png */; };
+		9988EF771CF2DEC200B7C76F /* forward_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF651CF2DEC200B7C76F /* forward_nor@2x.png */; };
+		9988EF781CF2DEC200B7C76F /* pause_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF661CF2DEC200B7C76F /* pause_disable@2x.png */; };
+		9988EF791CF2DEC200B7C76F /* pause_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF671CF2DEC200B7C76F /* pause_nor@2x.png */; };
+		9988EF7A1CF2DEC200B7C76F /* play_disable@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF681CF2DEC200B7C76F /* play_disable@2x.png */; };
+		9988EF7B1CF2DEC200B7C76F /* play_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF691CF2DEC200B7C76F /* play_nor@2x.png */; };
+		9988EF7C1CF2DEC200B7C76F /* progressThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF6A1CF2DEC200B7C76F /* progressThumb@2x.png */; };
+		9988EF7D1CF2DEC200B7C76F /* video_brightness_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF6B1CF2DEC200B7C76F /* video_brightness_bg@2x.png */; };
+		9988EF7E1CF2DEC200B7C76F /* video_num_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF6C1CF2DEC200B7C76F /* video_num_bg@2x.png */; };
+		9988EF7F1CF2DEC200B7C76F /* video_num_front@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF6D1CF2DEC200B7C76F /* video_num_front@2x.png */; };
+		9988EF801CF2DEC200B7C76F /* video_tips@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF6E1CF2DEC200B7C76F /* video_tips@2x.png */; };
+		9988EF811CF2DEC200B7C76F /* video_volume_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF6F1CF2DEC200B7C76F /* video_volume_bg@2x.png */; };
+		9988EF851CF307AA00B7C76F /* VideoPlayerDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9988EF841CF307AA00B7C76F /* VideoPlayerDemo.m */; };
+		9988EF871CF30BB700B7C76F /* nav_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF861CF30BB700B7C76F /* nav_back_white.png */; };
+		9988EF891CF3131700B7C76F /* play_slider.png in Resources */ = {isa = PBXBuildFile; fileRef = 9988EF881CF3131700B7C76F /* play_slider.png */; };
+		998E4E9B1CF6C8540021BCAD /* recipe_img_dishes_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 998E4E991CF6C8540021BCAD /* recipe_img_dishes_left@2x.png */; };
+		998E4E9C1CF6C8540021BCAD /* recipe_img_dishes_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 998E4E9A1CF6C8540021BCAD /* recipe_img_dishes_right@2x.png */; };
+		998E4E9F1CF719390021BCAD /* CachePlayerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 998E4E9E1CF719390021BCAD /* CachePlayerData.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9988EF361CF2D85A00B7C76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9988EF141CF2D85A00B7C76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9988EF1B1CF2D85A00B7C76F;
+			remoteInfo = VideoPlayer;
+		};
+		9988EF411CF2D85A00B7C76F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9988EF141CF2D85A00B7C76F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9988EF1B1CF2D85A00B7C76F;
+			remoteInfo = VideoPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9988EF1C1CF2D85A00B7C76F /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9988EF201CF2D85A00B7C76F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9988EF221CF2D85A00B7C76F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9988EF231CF2D85A00B7C76F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9988EF251CF2D85A00B7C76F /* VideoPlayerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerController.h; sourceTree = "<group>"; };
+		9988EF261CF2D85A00B7C76F /* VideoPlayerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerController.m; sourceTree = "<group>"; };
+		9988EF291CF2D85A00B7C76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9988EF2B1CF2D85A00B7C76F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9988EF2E1CF2D85A00B7C76F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9988EF301CF2D85A00B7C76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9988EF351CF2D85A00B7C76F /* VideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9988EF391CF2D85A00B7C76F /* VideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerTests.m; sourceTree = "<group>"; };
+		9988EF3B1CF2D85A00B7C76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9988EF401CF2D85A00B7C76F /* VideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9988EF441CF2D85A00B7C76F /* VideoPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerUITests.m; sourceTree = "<group>"; };
+		9988EF461CF2D85A00B7C76F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9988EF581CF2DE7400B7C76F /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
+		9988EF591CF2DE7400B7C76F /* 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.mp4; sourceTree = "<group>"; };
+		9988EF5A1CF2DE7400B7C76F /* 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.mp4; sourceTree = "<group>"; };
+		9988EF5E1CF2DEC200B7C76F /* backward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backward_disable@2x.png"; sourceTree = "<group>"; };
+		9988EF5F1CF2DEC200B7C76F /* backward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backward_nor@2x.png"; sourceTree = "<group>"; };
+		9988EF601CF2DEC200B7C76F /* fast_backward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_backward_disable@2x.png"; sourceTree = "<group>"; };
+		9988EF611CF2DEC200B7C76F /* fast_backward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_backward_nor@2x.png"; sourceTree = "<group>"; };
+		9988EF621CF2DEC200B7C76F /* fast_forward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_forward_disable@2x.png"; sourceTree = "<group>"; };
+		9988EF631CF2DEC200B7C76F /* fast_forward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast_forward_nor@2x.png"; sourceTree = "<group>"; };
+		9988EF641CF2DEC200B7C76F /* forward_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_disable@2x.png"; sourceTree = "<group>"; };
+		9988EF651CF2DEC200B7C76F /* forward_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_nor@2x.png"; sourceTree = "<group>"; };
+		9988EF661CF2DEC200B7C76F /* pause_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_disable@2x.png"; sourceTree = "<group>"; };
+		9988EF671CF2DEC200B7C76F /* pause_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_nor@2x.png"; sourceTree = "<group>"; };
+		9988EF681CF2DEC200B7C76F /* play_disable@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_disable@2x.png"; sourceTree = "<group>"; };
+		9988EF691CF2DEC200B7C76F /* play_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_nor@2x.png"; sourceTree = "<group>"; };
+		9988EF6A1CF2DEC200B7C76F /* progressThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "progressThumb@2x.png"; sourceTree = "<group>"; };
+		9988EF6B1CF2DEC200B7C76F /* video_brightness_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_brightness_bg@2x.png"; sourceTree = "<group>"; };
+		9988EF6C1CF2DEC200B7C76F /* video_num_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_num_bg@2x.png"; sourceTree = "<group>"; };
+		9988EF6D1CF2DEC200B7C76F /* video_num_front@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_num_front@2x.png"; sourceTree = "<group>"; };
+		9988EF6E1CF2DEC200B7C76F /* video_tips@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_tips@2x.png"; sourceTree = "<group>"; };
+		9988EF6F1CF2DEC200B7C76F /* video_volume_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_volume_bg@2x.png"; sourceTree = "<group>"; };
+		9988EF821CF2E07A00B7C76F /* Usual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Usual.h; path = Resoure/Video/Usual.h; sourceTree = "<group>"; };
+		9988EF831CF307AA00B7C76F /* VideoPlayerDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerDemo.h; sourceTree = "<group>"; };
+		9988EF841CF307AA00B7C76F /* VideoPlayerDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerDemo.m; sourceTree = "<group>"; };
+		9988EF861CF30BB700B7C76F /* nav_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back_white.png; sourceTree = "<group>"; };
+		9988EF881CF3131700B7C76F /* play_slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_slider.png; sourceTree = "<group>"; };
+		998E4E991CF6C8540021BCAD /* recipe_img_dishes_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_img_dishes_left@2x.png"; sourceTree = "<group>"; };
+		998E4E9A1CF6C8540021BCAD /* recipe_img_dishes_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "recipe_img_dishes_right@2x.png"; sourceTree = "<group>"; };
+		998E4E9D1CF719390021BCAD /* CachePlayerData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachePlayerData.h; sourceTree = "<group>"; };
+		998E4E9E1CF719390021BCAD /* CachePlayerData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachePlayerData.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9988EF191CF2D85A00B7C76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9988EF321CF2D85A00B7C76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9988EF3D1CF2D85A00B7C76F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9988EF131CF2D85A00B7C76F = {
+			isa = PBXGroup;
+			children = (
+				9988EF1E1CF2D85A00B7C76F /* VideoPlayer */,
+				9988EF381CF2D85A00B7C76F /* VideoPlayerTests */,
+				9988EF431CF2D85A00B7C76F /* VideoPlayerUITests */,
+				9988EF1D1CF2D85A00B7C76F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9988EF1D1CF2D85A00B7C76F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF1C1CF2D85A00B7C76F /* VideoPlayer.app */,
+				9988EF351CF2D85A00B7C76F /* VideoPlayerTests.xctest */,
+				9988EF401CF2D85A00B7C76F /* VideoPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9988EF1E1CF2D85A00B7C76F /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF521CF2DE1600B7C76F /* Resoure */,
+				9988EF221CF2D85A00B7C76F /* AppDelegate.h */,
+				9988EF231CF2D85A00B7C76F /* AppDelegate.m */,
+				9988EF251CF2D85A00B7C76F /* VideoPlayerController.h */,
+				9988EF261CF2D85A00B7C76F /* VideoPlayerController.m */,
+				998E4E9D1CF719390021BCAD /* CachePlayerData.h */,
+				998E4E9E1CF719390021BCAD /* CachePlayerData.m */,
+				9988EF831CF307AA00B7C76F /* VideoPlayerDemo.h */,
+				9988EF841CF307AA00B7C76F /* VideoPlayerDemo.m */,
+				9988EF821CF2E07A00B7C76F /* Usual.h */,
+				9988EF281CF2D85A00B7C76F /* Main.storyboard */,
+				9988EF2B1CF2D85A00B7C76F /* Assets.xcassets */,
+				9988EF2D1CF2D85A00B7C76F /* LaunchScreen.storyboard */,
+				9988EF301CF2D85A00B7C76F /* Info.plist */,
+				9988EF1F1CF2D85A00B7C76F /* Supporting Files */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		9988EF1F1CF2D85A00B7C76F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF201CF2D85A00B7C76F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9988EF381CF2D85A00B7C76F /* VideoPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF391CF2D85A00B7C76F /* VideoPlayerTests.m */,
+				9988EF3B1CF2D85A00B7C76F /* Info.plist */,
+			);
+			path = VideoPlayerTests;
+			sourceTree = "<group>";
+		};
+		9988EF431CF2D85A00B7C76F /* VideoPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF441CF2D85A00B7C76F /* VideoPlayerUITests.m */,
+				9988EF461CF2D85A00B7C76F /* Info.plist */,
+			);
+			path = VideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		9988EF521CF2DE1600B7C76F /* Resoure */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF531CF2DE1600B7C76F /* Image */,
+				9988EF541CF2DE1600B7C76F /* Video */,
+			);
+			path = Resoure;
+			sourceTree = "<group>";
+		};
+		9988EF531CF2DE1600B7C76F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				998E4E991CF6C8540021BCAD /* recipe_img_dishes_left@2x.png */,
+				998E4E9A1CF6C8540021BCAD /* recipe_img_dishes_right@2x.png */,
+				9988EF881CF3131700B7C76F /* play_slider.png */,
+				9988EF861CF30BB700B7C76F /* nav_back_white.png */,
+				9988EF5E1CF2DEC200B7C76F /* backward_disable@2x.png */,
+				9988EF5F1CF2DEC200B7C76F /* backward_nor@2x.png */,
+				9988EF601CF2DEC200B7C76F /* fast_backward_disable@2x.png */,
+				9988EF611CF2DEC200B7C76F /* fast_backward_nor@2x.png */,
+				9988EF621CF2DEC200B7C76F /* fast_forward_disable@2x.png */,
+				9988EF631CF2DEC200B7C76F /* fast_forward_nor@2x.png */,
+				9988EF641CF2DEC200B7C76F /* forward_disable@2x.png */,
+				9988EF651CF2DEC200B7C76F /* forward_nor@2x.png */,
+				9988EF661CF2DEC200B7C76F /* pause_disable@2x.png */,
+				9988EF671CF2DEC200B7C76F /* pause_nor@2x.png */,
+				9988EF681CF2DEC200B7C76F /* play_disable@2x.png */,
+				9988EF691CF2DEC200B7C76F /* play_nor@2x.png */,
+				9988EF6A1CF2DEC200B7C76F /* progressThumb@2x.png */,
+				9988EF6B1CF2DEC200B7C76F /* video_brightness_bg@2x.png */,
+				9988EF6C1CF2DEC200B7C76F /* video_num_bg@2x.png */,
+				9988EF6D1CF2DEC200B7C76F /* video_num_front@2x.png */,
+				9988EF6E1CF2DEC200B7C76F /* video_tips@2x.png */,
+				9988EF6F1CF2DEC200B7C76F /* video_volume_bg@2x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		9988EF541CF2DE1600B7C76F /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9988EF581CF2DE7400B7C76F /* 1.mp4 */,
+				9988EF591CF2DE7400B7C76F /* 2.mp4 */,
+				9988EF5A1CF2DE7400B7C76F /* 3.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9988EF1B1CF2D85A00B7C76F /* VideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9988EF491CF2D85A00B7C76F /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
+			buildPhases = (
+				9988EF181CF2D85A00B7C76F /* Sources */,
+				9988EF191CF2D85A00B7C76F /* Frameworks */,
+				9988EF1A1CF2D85A00B7C76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoPlayer;
+			productName = VideoPlayer;
+			productReference = 9988EF1C1CF2D85A00B7C76F /* VideoPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9988EF341CF2D85A00B7C76F /* VideoPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9988EF4C1CF2D85A00B7C76F /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */;
+			buildPhases = (
+				9988EF311CF2D85A00B7C76F /* Sources */,
+				9988EF321CF2D85A00B7C76F /* Frameworks */,
+				9988EF331CF2D85A00B7C76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9988EF371CF2D85A00B7C76F /* PBXTargetDependency */,
+			);
+			name = VideoPlayerTests;
+			productName = VideoPlayerTests;
+			productReference = 9988EF351CF2D85A00B7C76F /* VideoPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9988EF3F1CF2D85A00B7C76F /* VideoPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9988EF4F1CF2D85A00B7C76F /* Build configuration list for PBXNativeTarget "VideoPlayerUITests" */;
+			buildPhases = (
+				9988EF3C1CF2D85A00B7C76F /* Sources */,
+				9988EF3D1CF2D85A00B7C76F /* Frameworks */,
+				9988EF3E1CF2D85A00B7C76F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9988EF421CF2D85A00B7C76F /* PBXTargetDependency */,
+			);
+			name = VideoPlayerUITests;
+			productName = VideoPlayerUITests;
+			productReference = 9988EF401CF2D85A00B7C76F /* VideoPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9988EF141CF2D85A00B7C76F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = uplooking.com;
+				TargetAttributes = {
+					9988EF1B1CF2D85A00B7C76F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K5S34FB487;
+					};
+					9988EF341CF2D85A00B7C76F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K5S34FB487;
+						TestTargetID = 9988EF1B1CF2D85A00B7C76F;
+					};
+					9988EF3F1CF2D85A00B7C76F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K5S34FB487;
+						TestTargetID = 9988EF1B1CF2D85A00B7C76F;
+					};
+				};
+			};
+			buildConfigurationList = 9988EF171CF2D85A00B7C76F /* Build configuration list for PBXProject "VideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9988EF131CF2D85A00B7C76F;
+			productRefGroup = 9988EF1D1CF2D85A00B7C76F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9988EF1B1CF2D85A00B7C76F /* VideoPlayer */,
+				9988EF341CF2D85A00B7C76F /* VideoPlayerTests */,
+				9988EF3F1CF2D85A00B7C76F /* VideoPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9988EF1A1CF2D85A00B7C76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9988EF7C1CF2DEC200B7C76F /* progressThumb@2x.png in Resources */,
+				9988EF5C1CF2DE7400B7C76F /* 2.mp4 in Resources */,
+				9988EF891CF3131700B7C76F /* play_slider.png in Resources */,
+				9988EF2F1CF2D85A00B7C76F /* LaunchScreen.storyboard in Resources */,
+				9988EF5B1CF2DE7400B7C76F /* 1.mp4 in Resources */,
+				9988EF801CF2DEC200B7C76F /* video_tips@2x.png in Resources */,
+				9988EF731CF2DEC200B7C76F /* fast_backward_nor@2x.png in Resources */,
+				9988EF7B1CF2DEC200B7C76F /* play_nor@2x.png in Resources */,
+				9988EF771CF2DEC200B7C76F /* forward_nor@2x.png in Resources */,
+				9988EF751CF2DEC200B7C76F /* fast_forward_nor@2x.png in Resources */,
+				9988EF811CF2DEC200B7C76F /* video_volume_bg@2x.png in Resources */,
+				998E4E9C1CF6C8540021BCAD /* recipe_img_dishes_right@2x.png in Resources */,
+				9988EF741CF2DEC200B7C76F /* fast_forward_disable@2x.png in Resources */,
+				9988EF7F1CF2DEC200B7C76F /* video_num_front@2x.png in Resources */,
+				9988EF7A1CF2DEC200B7C76F /* play_disable@2x.png in Resources */,
+				9988EF7D1CF2DEC200B7C76F /* video_brightness_bg@2x.png in Resources */,
+				9988EF781CF2DEC200B7C76F /* pause_disable@2x.png in Resources */,
+				9988EF5D1CF2DE7400B7C76F /* 3.mp4 in Resources */,
+				9988EF791CF2DEC200B7C76F /* pause_nor@2x.png in Resources */,
+				9988EF2C1CF2D85A00B7C76F /* Assets.xcassets in Resources */,
+				9988EF7E1CF2DEC200B7C76F /* video_num_bg@2x.png in Resources */,
+				998E4E9B1CF6C8540021BCAD /* recipe_img_dishes_left@2x.png in Resources */,
+				9988EF871CF30BB700B7C76F /* nav_back_white.png in Resources */,
+				9988EF761CF2DEC200B7C76F /* forward_disable@2x.png in Resources */,
+				9988EF711CF2DEC200B7C76F /* backward_nor@2x.png in Resources */,
+				9988EF721CF2DEC200B7C76F /* fast_backward_disable@2x.png in Resources */,
+				9988EF701CF2DEC200B7C76F /* backward_disable@2x.png in Resources */,
+				9988EF2A1CF2D85A00B7C76F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9988EF331CF2D85A00B7C76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9988EF3E1CF2D85A00B7C76F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9988EF181CF2D85A00B7C76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9988EF271CF2D85A00B7C76F /* VideoPlayerController.m in Sources */,
+				998E4E9F1CF719390021BCAD /* CachePlayerData.m in Sources */,
+				9988EF851CF307AA00B7C76F /* VideoPlayerDemo.m in Sources */,
+				9988EF241CF2D85A00B7C76F /* AppDelegate.m in Sources */,
+				9988EF211CF2D85A00B7C76F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9988EF311CF2D85A00B7C76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9988EF3A1CF2D85A00B7C76F /* VideoPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9988EF3C1CF2D85A00B7C76F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9988EF451CF2D85A00B7C76F /* VideoPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9988EF371CF2D85A00B7C76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9988EF1B1CF2D85A00B7C76F /* VideoPlayer */;
+			targetProxy = 9988EF361CF2D85A00B7C76F /* PBXContainerItemProxy */;
+		};
+		9988EF421CF2D85A00B7C76F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9988EF1B1CF2D85A00B7C76F /* VideoPlayer */;
+			targetProxy = 9988EF411CF2D85A00B7C76F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9988EF281CF2D85A00B7C76F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9988EF291CF2D85A00B7C76F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9988EF2D1CF2D85A00B7C76F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9988EF2E1CF2D85A00B7C76F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9988EF471CF2D85A00B7C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9988EF481CF2D85A00B7C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9988EF4A1CF2D85A00B7C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.90;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9988EF4B1CF2D85A00B7C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.90;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9988EF4D1CF2D85A00B7C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.90.VideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
+			};
+			name = Debug;
+		};
+		9988EF4E1CF2D85A00B7C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VideoPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.90.VideoPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
+			};
+			name = Release;
+		};
+		9988EF501CF2D85A00B7C76F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.90.VideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoPlayer;
+			};
+			name = Debug;
+		};
+		9988EF511CF2D85A00B7C76F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VideoPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.90.VideoPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VideoPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9988EF171CF2D85A00B7C76F /* Build configuration list for PBXProject "VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9988EF471CF2D85A00B7C76F /* Debug */,
+				9988EF481CF2D85A00B7C76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9988EF491CF2D85A00B7C76F /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9988EF4A1CF2D85A00B7C76F /* Debug */,
+				9988EF4B1CF2D85A00B7C76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9988EF4C1CF2D85A00B7C76F /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9988EF4D1CF2D85A00B7C76F /* Debug */,
+				9988EF4E1CF2D85A00B7C76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9988EF4F1CF2D85A00B7C76F /* Build configuration list for PBXNativeTarget "VideoPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9988EF501CF2D85A00B7C76F /* Debug */,
+				9988EF511CF2D85A00B7C76F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9988EF141CF2D85A00B7C76F /* Project object */;
+}
